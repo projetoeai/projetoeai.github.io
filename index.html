@@ -130,13 +130,35 @@
 
         <hr class="featurette-divider">
 
-        <div id="duvidas" class="container">
-            <h1>Caixa de Dúvidas</h1>
-            <p>
-                caixa de dúvidas<br>
-            </p>
-
+        <div class="container-fluid h-100 bg-light text-dark">
+  <div class="row justify-content-center align-items-center">
+    <h1>Duvidas</h1>    
+  </div>
         </div>
+        <hr/>
+        <div class="row justify-content-center align-items-center h-100">
+      <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            
+        <form>
+            <div class="form-group">
+            <label for="exampleInputFistName"> Nome </label>
+            <input type="text" class="form-control" id="exampleInputFistName" aria-describedby="nameHelp" placeholder="----">
+            <small id="nameHelp" class="form-text text-muted">Manteremos anônimo qualquer imformação</small>
+            </div>
+                <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+    <small id="emailHelp" class="form-text text-muted">Não iremos esplanar seu e-mail.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Envie aqui sua duvida</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            </div>
+        </div>
+
 
     </main>
 
