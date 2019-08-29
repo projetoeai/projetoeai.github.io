@@ -15,12 +15,26 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-$('.nav a[href^="#"]').on('click', function(e) {
+//JS para suavizar descida da tela :??
+$('.navbar .nav-item a').click(function(e){
   e.preventDefault();
   var id = $(this).attr('href'),
   targetOffset = $(id).offset().top;
     
   $('html, body').animate({ 
-    scrollTop: targetOffset - 100
+    scrollTop: targetOffset
   }, 500);
+});
+
+
+/*Scroll Suave*/
+
+/**/
+
+
+//-Menu hamburger recolhido quando clica link
+$('.navbar-nav li a').click(function() {
+   if ( !$(this).parent().hasClass('dropdown')) {
+      $('.navbar-collapse').collapse('hide'); 
+   }
 });
