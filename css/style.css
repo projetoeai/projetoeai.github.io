@@ -30,7 +30,7 @@
   background-color: #FF00FF; 
 
 }*/
-.jumbotron {  
+.jumbotron {
     background-image: url('../images/banner.jpg');
     text-align: center;
     background-size: cover;
@@ -46,4 +46,8 @@
 }
 #quemsomos, #sejaummultiplicador, #duvidas{
     padding-top: 80px;
+}
+
+p{
+  text-align: justify;  
 }
