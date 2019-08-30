@@ -35,7 +35,7 @@
     text-align: center;
     background-size: cover;
     background-color: transparent;
-    height: 900px;    
+    height: 900px;
 }
 .vertical-center {
   min-height: 100%; 
@@ -50,4 +50,17 @@
 
 p{
   text-align: justify;  
+}
+body{
+    font-family: serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
 }
